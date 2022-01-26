@@ -1,0 +1,340 @@
+@import "fonts";
+@import "mq";
+@import "palette";
+
+/* Article */
+.dcr-1jp4og {
+    background-color: #333;
+    color: white;
+}
+
+/* Photo caption */
+.dcr-1x5uuj2 {
+    background-color: #333;
+    color: white;
+}
+
+.dcr-125vfar, .dcr-mj1r7n, .dcr-18svo86, .dcr-w1u2ut {
+    color: white;
+}
+
+.dcr-3hmq58 {
+    fill: white;
+}
+
+.interactive-atom {
+    margin: 0;
+    padding: 0;
+}
+
+.element-atom, .interactive-atom {
+    margin-left: 0!important;
+}
+
+/*
+
+mobile:  320px,
+tablet:  740px,
+desktop: 980px,
+leftCol: 1140px,
+wide:    1300px,
+
+// Tweakpoints
+desktopAd: 810px,
+mobileLandscape: 480px
+
+inline - dcr-10khgmf
+supporting - dcr-1sioudk
+showcase - dcr-eiqqge
+thumbnail - dcr-1nntrho
+immersive - dcr-2x9j73
+
+*/
+
+
+
+/* Inline */
+.dcr-10khgmf {
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+    width:100%;
+    max-width: 620px;
+
+    @include mq($until: mobile) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobile, $until: mobileLandscape) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobileLandscape, $until: tablet) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: tablet, $until: desktop) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: desktop, $until: leftCol) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: leftCol, $until: wide) {
+        margin-left: 160px!important;
+    }
+
+    @include mq($from: wide) {
+        margin-left: 240px!important;
+    }
+
+}
+
+/* Suporrting */
+.dcr-1sioudk {
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+    width:100%;
+    max-width: 300px;
+    clear: left;
+    float: left;
+
+    @include mq($until: mobile) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobile, $until: mobileLandscape) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobileLandscape, $until: tablet) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: tablet, $until: desktop) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: desktop, $until: leftCol) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: leftCol, $until: wide) {
+        margin-left: 160px!important;
+    }
+
+    @include mq($from: wide) {
+        margin-left: 240px!important;
+
+    }
+
+}
+
+/* thumbnail */ 
+
+.dcr-1nntrho {
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+    width:100%;
+    max-width: 140px;
+    clear: left;
+    float: left;
+
+    @include mq($until: mobile) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobile, $until: mobileLandscape) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobileLandscape, $until: tablet) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: tablet, $until: desktop) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: desktop, $until: leftCol) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: leftCol, $until: wide) {
+        margin-left: 160px!important;
+    }
+
+    @include mq($from: wide) {
+        margin-left: 240px!important;
+
+    }
+
+}
+
+/* Showcase */ 
+
+.dcr-eiqqge {
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+    width:100%;
+    max-width: 860px;
+
+    @include mq($until: mobile) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobile, $until: mobileLandscape) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobileLandscape, $until: tablet) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: tablet, $until: desktop) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: desktop, $until: leftCol) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: leftCol, $until: wide) {
+        margin-left: 160px!important;
+    }
+
+    @include mq($from: wide) {
+        margin-left: 240px!important;
+
+    }
+
+    figcaption {
+        width: 100%;
+        position: relative;
+    }
+
+}
+
+/* immersive */
+.dcr-2x9j73 {
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+
+    @include mq($until: mobile) {
+        margin-left: 0px!important;
+        max-width: initial;
+    }
+
+    @include mq($from: mobile, $until: mobileLandscape) {
+        margin-left: 0px!important;
+        max-width: initial;
+    }
+
+    @include mq($from: mobileLandscape, $until: tablet) {
+        margin-left: 0px!important;
+        max-width: initial;
+    }
+
+    @include mq($from: tablet, $until: desktop) {
+        margin-left: 0px!important;
+        max-width: initial;
+    }
+
+    @include mq($from: desktop, $until: leftCol) {
+        margin-left: 0px!important;
+        max-width: initial;
+    }
+
+    @include mq($from: leftCol, $until: wide) {
+        margin-left: 0px!important;
+        max-width: initial;
+    }
+
+    @include mq($from: wide) {
+        width: 1260px;
+        max-width: initial;
+        margin-left: 0px!important;
+    }
+
+}
+
+.dcr-s23rjr {
+    
+    max-width: 620px;
+
+    @include mq($until: mobile) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobile, $until: mobileLandscape) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: mobileLandscape, $until: tablet) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: tablet, $until: desktop) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: desktop, $until: leftCol) {
+        margin-left: 0!important;
+    }
+
+    @include mq($from: leftCol, $until: wide) {
+        margin-left: 160px!important;
+    }
+
+    @include mq($from: wide) {
+        margin-left: 240px!important;
+    }
+
+}
+
+.dcr-lg1c4h {
+
+    h2 {
+
+        max-width: 620px;
+        color:  white;
+
+        @include mq($until: mobile) {
+            margin-left: 0;
+        }
+
+        @include mq($from: mobile, $until: mobileLandscape) {
+            margin-left: 0;
+        }
+
+        @include mq($from: mobileLandscape, $until: tablet) {
+            margin-left: 0;
+        }
+
+        @include mq($from: tablet, $until: desktop) {
+            margin-left: 0;
+        }
+
+        @include mq($from: desktop, $until: leftCol) {
+            margin-left: 0;
+        }
+
+        @include mq($from: leftCol, $until: wide) {
+            margin-left: 160px;
+        }
+
+        @include mq($from: wide) {
+            margin-left: 240px;
+        }
+    }
+}
